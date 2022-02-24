@@ -43,12 +43,20 @@ const server = https.createServer(options, function (req, res) {
 
         fs.readFile(path + fileName, (error,data) =>{
             if(error){
+
                 console.log(error)
                 res.writeHead(400, {"Content-Type": "application/json"});
                 res.write(JSON.stringify(error));
                 res.end();
                 
             }else{
+                var date = new Date()
+                fs.appendFile('requesteddocuments.txt', "\n" + date + ' ' + fileName, function (err) {
+                    if (err) {
+                      console.log(error)
+              
+                    }
+                  })
                 res.writeHead(200, {"Content-Type": "application/pdf"});
                 res.write(data);
                 res.end();
