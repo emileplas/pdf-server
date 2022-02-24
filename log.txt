@@ -1,0 +1,31 @@
+Server is running at https://127.0.0.1:4567/
+[Error: ENOENT: no such file or directory, open '/Users/emileplas/Desktop/testdownloadfolder/things'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/emileplas/Desktop/testdownloadfolder/things'
+}
+[Error: ENOENT: no such file or directory, open '/Users/emileplas/Desktop/testdownloadfolder/things'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/emileplas/Desktop/testdownloadfolder/things'
+}
+[Error: ENOENT: no such file or directory, open '/Users/emileplas/Desktop/testdownloadfolder/things'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/emileplas/Desktop/testdownloadfolder/things'
+}
+[Error: ENOENT: no such file or directory, open '/Users/emileplas/Desktop/testdownloadfolder/things'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/emileplas/Desktop/testdownloadfolder/things'
+}
+[Error: ENOENT: no such file or directory, open '/Users/emileplas/Desktop/testdownloadfolder/things'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/emileplas/Desktop/testdownloadfolder/things'
+}
